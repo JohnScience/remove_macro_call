@@ -1,7 +1,25 @@
 [package]
 name = "remove_macro_call"
 version = "0.1.0"
+authors = ["Dmitrii Demenev <demenev.dmitriy1@gmail.com>"]
 edition = "2021"
+rust-version = "1.56.1" # https://github.com/foresterre/cargo-msrv
+description = "Attribute macro that removes a call of a function-like macro"
+documentation = "https://docs.rs/remove_macro_call"
+readme = "README.md"
+repository = "https://github.com/JohnScience/remove_macro_call"
+license = "MIT OR Apache-2.0"
+# license-file | not needed
+keywords = ["cfg", "remove", "macro", "call"]
+categories = ["rust-patterns"] # https://crates.io/category_slugs
+# workspace | not needed
+# build | not needed
+# links | not needed
+# exclude | not needed
+autobins = false
+autoexamples = false
+autotests = false
+autobenches = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

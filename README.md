@@ -1,4 +1,4 @@
-# Attribute macro that removes a macro call
+# Attribute macro that removes a call of a function-like macro
 
 In a vaccum, `remove_macro_call` [attribute] is fairly useless because unconditional application of `#[remove_macro_call]` [attribute] to either [declarative](https://blog.logrocket.com/macros-in-rust-a-tutorial-with-examples/#declarativemacrosinrust) or [procedural function-like macros][proc macro] yields the same result as writing only the code inside of the enclosing punctuation (parentheses, braces, or square brackets).
 
