@@ -108,6 +108,9 @@ unconst_trait_impl! {
 
 **Note**: In the real code, the example above could be replaced with a simpler version relying on [`cfg_aliases`](https://crates.io/crates/cfg_aliases) crate.
 
+# Real-world examples:
+* [zst](https://github.com/JohnScience/zst)
+
 You can learn more about `const_trait_impl` here:
 * [GitHub](https://github.com/JohnScience/const_trait_impl)
 * [crates.io](https://crates.io/crates/const_trait_impl)
