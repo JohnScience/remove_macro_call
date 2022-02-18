@@ -15,7 +15,7 @@ use syn::{parse_macro_input, Macro};
 ///     feature = "const_default_impls",
 ///     feature = "const_fn_trait_bound"
 /// )))]
-/// use const_trait_impl::unconst_trait_impl;
+/// use unconst_trait_impl::unconst_trait_impl;
 /// use core::{default::Default, marker::PhantomData};
 /// #[cfg(all(
 ///     feature = "const_trait_impl",
@@ -63,7 +63,11 @@ use syn::{parse_macro_input, Macro};
 /// }
 /// ```
 /// 
-/// **Note**: In the real code, the example above could be replaced with a simpler version relying on [`cfg_aliases`](https://crates.io/crates/cfg_aliases) crate.
+/// **Note**: In the real code, the example above could be replaced with a simpler version relying
+/// on [`cfg_aliases`](https://crates.io/crates/cfg_aliases) crate.
+/// 
+/// # Real-world examples:
+/// * [zst](https://github.com/JohnScience/zst)
 /// 
 /// You can learn more about `const_trait_impl` here:
 /// * [GitHub](https://github.com/JohnScience/const_trait_impl)
